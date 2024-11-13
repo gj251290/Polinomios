@@ -1,0 +1,5 @@
+Se modificó la lógica de inserción para comparar exponentes de mayor a menor, los nodos se almacenan en orden descendente de exponentes.
+En los métodos sumar y restar, se ajustaron las condiciones para iterar correctamente sobre los nodos en orden descendente.
+Se crea el método dividir para que funcione correctamente con el ordenamiento.
+Se crea el método esPolinomioCero para verificar que el divisor sea valido.
+Se utiliza el JLabel lblPolinomioRD para mostrar mensajes de error o información.
