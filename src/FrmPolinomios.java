@@ -192,11 +192,11 @@ public class FrmPolinomios extends JFrame {
                 switch (cmbPolinomio.getSelectedIndex()) {
                     case 0:
                         pR = p1.derivar();
-                        pR.mostrar(lblPolinomioR, "Derivada del Polinimio 1");
+                        pR.mostrar(lblPolinomioR, " Derivada del Polinimio 1");
                         break;
                     case 1:
                         pR = p2.derivar();
-                        pR.mostrar(lblPolinomioR, "Derivada del Polinimio 2");
+                        pR.mostrar(lblPolinomioR, " Derivada del Polinimio 2");
                         break;
                 }
                 break;
